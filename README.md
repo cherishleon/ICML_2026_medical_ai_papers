@@ -2,11 +2,22 @@
 
 Additions or corrections are welcome in Issues! format: Title + Paper Link + Code Link. 
 
+## Table of Contents
+- [Large Language Models (LLMs) & NLP](#large-language-models-llms--nlp)
+- [Multimodal & Vision-Language (VLM)](#multimodal--vision-language-vlm)
+- [Physiological Signals / ECG / PPG / Time-Series](#physiological-signals--ecg--ppg--time-series)
+  - [Medical Audio](#medical-audio)
+- [Agents & Reasoning](#agents--reasoning)
+- [Benchmarks, Datasets & Toolkits](#benchmarks-datasets--toolkits)
+- [Image Segmentation & Diagnosis](#image-segmentation--diagnosis)
+- [Others (Surgical AI, Genomics, Federated Learning)](#others-surgical-ai-genomics-federated-learning)
+
+---
+
 ## Large Language Models (LLMs) & NLP
 * From Token to Token Pair: Efficient Prompt Compression for Large Language Models in Clinical Prediction [[Paper](https://arxiv.org/abs/2605.11774)][[Code](https://github.com/JasonZuu/MedTPE)]
 * InfiMed-ORBIT: Aligning LLMs on Open-Ended Complex Tasks via Rubric-Based Incremental Training [[Paper]](https://arxiv.org/abs/2510.15859)[[Code](https://pidneuralode.github.io/ORBIT/)]
 * MedREK: Retrieval-Based Editing for Medical LLMs with Key-Aware Prompts [[Paper](https://arxiv.org/abs/2510.13500)][[Code](https://github.com/mylittleriver/MedREK)]
-* SPR-RAFT: Parameter-Efficient Regression-Aware Fine-Tuning for Biomedical LLM Regression [[Paper](https://icml.cc/virtual/2026/poster/63748)]
 * TwinWeaver: An LLM-Based Foundation Model Framework for Pan-Cancer Digital Twins [[Paper](https://arxiv.org/abs/2601.20906)][[Code](https://github.com/MendenLab/TwinWeaver)]
 * PathwayLLM: Explainable Clinical Trajectory Modeling with Structured Pathways for Sepsis Prediction [[Paper]](https://icml.cc/virtual/2026/poster/61641)
 * ClinTutor-R1: Advancing Scalable and Robust One-to-Many Alignment in Clinical Socratic Education [[Paper]](https://arxiv.org/abs/2512.05671)[[Code](https://github.com/Zhitao-He/ClinTutor-R1)]
