@@ -5,8 +5,7 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 ## Table of Contents
 - [Large Language Models (LLMs) & NLP](#large-language-models-llms--nlp)
 - [Multimodal & Vision-Language (VLM)](#multimodal--vision-language-vlm)
-- [Physiological Signals / ECG / PPG / Time-Series](#physiological-signals--ecg--ppg--time-series)
-  - [Medical Audio](#medical-audio)
+- [Physiological Signals / ECG / PPG / Time-Series / Medical Audio](#physiological-signals--ecg--ppg--time-series)
 - [Agents & Reasoning](#agents--reasoning)
 - [Benchmarks, Datasets & Toolkits](#benchmarks-datasets--toolkits)
 - [Image Segmentation & Diagnosis](#image-segmentation--diagnosis)
@@ -25,6 +24,7 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 * SPR-RAFT: Parameter-Efficient Regression-Aware Fine-Tuning for Biomedical LLM Regression [[Paper]](https://icml.cc/virtual/2026/poster/63748)
 * MedCoG: Maximizing LLM Inference Density in Medical Reasoning via Meta-Cognitive Regulation [[Paper]](https://arxiv.org/html/2602.07905v2)
 * Expert-guided Clinical Text Augmentation via Query-Based Model Collaboration [[Paper]](https://arxiv.org/abs/2509.21530)
+* The Double Dilemma in Multi-Task Radiology Report Generation: A Gradient Dynamics Analysis and Solution [[Paper]](https://arxiv.org/abs/2605.22635)[[Code](https://github.com/vpsg-research/CAME-Grad)]
   
 ## Multimodal & Vision-Language (VLM)
 
@@ -63,10 +63,13 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 
 * AgentScore: Autoformulation of Deployable Clinical Scoring Systems [[Paper]](https://arxiv.org/abs/2601.22324v2)
 * Ophiuchus: Incentivizing Tool-augmented ''Think with Images'' for Joint Medical Segmentation, Understanding and Reasoning [[Paper]](https://arxiv.org/abs/2512.14157)
+* Evidential Reasoning Advances Interpretable Real-World Disease Screening [[Paper]](https://arxiv.org/abs/2605.15171)][[Code](https://github.com/DopamineLcy/EviScreen)]
 * MedScope: Incentivizing "Think with Videos" for Clinical Reasoning via Coarse-to-Fine Tool Calling [[Paper](https://arxiv.org/abs/2602.13332)][[Code](https://github.com/SII-WenjieLisjtu/MedScope/tree/main)]
 * Optimizing Inference-Time Compute for Medical Reasoning via Uncertainty Quantification [[Paper](https://arxiv.org/abs/2509.24560)][[Code](https://shaohao011.github.io/AdaThink-Med/)]
 * 3DMedAgent: Unified Perception-to-Understanding for 3D Medical Analysis [[Paper](https://arxiv.org/abs/2602.18064)]
 * From Conflict to Consensus: Boosting Medical Reasoning via Multi-Round Agentic RAG [[Paper](https://arxiv.org/abs/2603.03292)][[Code](https://github.com/NJU-RL/MA-RAG/tree/main)]
+* Turning Drift into Constraint: Robust Reasoning Alignment in Non-Stationary Multi-Stream Environments [[Paper](https://arxiv.org/abs/2510.04142)][[Code](https://github.com/XiaoyuYoung/APO)]
+* Thinking in Scales: Accelerating Gigapixel Pathology Image Analysis via Adaptive Continuous Reasoning [[Paper](https://arxiv.org/abs/2605.19491)][[Code](https://github.com/JSGe-AI/PathCTM)]
 * Why Specialist Models Still Matter: A Heterogeneous Multi-Agent Paradigm for Medical Artificial Intelligence [[Paper](https://arxiv.org/abs/2605.29744)]
 
 
@@ -80,12 +83,15 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 ## Image Segmentation & Diagnosis
 
 * Are We Overconfident in Models and Results for Semi-Supervised 3D Medical Image Segmentation? [[Paper](https://arxiv.org/abs/2605.25561)][[Code](https://github.com/DirkLiii/TCSeg)]
+* Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions [[Paper](https://arxiv.org/abs/2602.02560)]
 * FACT: Fuzzy Alignment with Comorbidity Topology for Reliable Multi-Label Medical Image Diagnosis [[Paper](https://icml.cc/virtual/2026/poster/63862)][[Code](https://github.com/yyuChen9/FACT)]
 * Stabilizing In-Context Multi-Source Domain Adaptation for Biomedical Images Through Controls [[Paper](https://icml.cc/virtual/2026/poster/61614)]
 * Med-SegLens: Latent-Level Model Diffing for Interpretable Medical Image Segmentation [[Paper](https://arxiv.org/abs/2602.10508)]
 * MedCRP-CL: Continual Medical Image Segmentation via Bayesian Nonparametric Semantic Modality Discovery [[Paper](https://arxiv.org/abs/2605.20297)][[Code](https://github.com/zygao930/MedCRP-CL)]
 * Shift-Dependent Asymmetry: Orthogonal Inverse Low-Rank Adaptation for Federated Medical Segmentation [[Paper](https://icml.cc/virtual/2026/poster/66734)]
 * On Revisiting Entropy for Identifying Mislabeled Medical Images [[Paper](https://arxiv.org/abs/2605.31090)][[Code](https://github.com/MedAITech/SEI)]
+* Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions [[Paper](https://arxiv.org/abs/2602.02560)]
+* Dynamic Decision Learning: Test-Time Evolution for Abnormality Grounding in Rare Diseases [[Paper](https://arxiv.org/abs/2604.24972)][[Code](https://lijunrio.github.io/DDL/)]
 
 
 ## Others (Surgical AI, Genomics, Federated Learning)
@@ -95,4 +101,6 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 * Fair-FedMOE: Group-Fair One-Shot Federated Learning via Prototype-Guided Experts for Medical Imaging Analysis [[Paper](https://icml.cc/virtual/2026/poster/62867)]
 * Rethinking Federated Prompt Learning for Medical Images: From Textual Tuning to Visual Manifold Anchoring [[Paper](https://icml.cc/virtual/2026/poster/66474)]
 * Plug-and-Play Diffusion Meets ADMM: Dual-Variable Coupling for Robust Medical Image Reconstruction [[Paper](https://arxiv.org/abs/2602.23214)][[Code](https://github.com/duchenhe/DC-PnPDP)]
-
+* Geometrically Constrained Stenosis Editing in Coronary Angiography via Entropic Optimal Transport [[Paper](https://arxiv.org/abs/2605.08851)][[Code](https://github.com/LiJialin001/OT-Bridge-Editor)]
+* Scaling Vision Transformers for Functional MRI with Flat Maps [[Paper](https://arxiv.org/abs/2510.13768)][[Code](https://github.com/MedARC-AI/CortexMAE)]
+* GenCircuit-RL: Reinforcement Learning from Hierarchical Verification for Genetic Circuit Design [[Paper](https://arxiv.org/abs/2605.14215)]
