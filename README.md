@@ -51,6 +51,7 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 * Cardio-mmFlow: A Gaussian-Prior-Free Physics-Informed Flow Matching Framework for Electrocardiogram to mmWave Radar Synthesis [[Paper](https://icml.cc/virtual/2026/poster/62703)]
 * Image-to-Brain Signal Generation for Visual Prosthesis with CLIP Guided Multimodal Diffusion Models [[Paper](https://arxiv.org/abs/2509.00787)]
 * MedMamba: Multi-View State Space Models with Adaptive Graph Learning for Medical Time Series Classification [[Paper](https://arxiv.org/abs/2605.24961)][[Code](https://github.com/zhangda1018/MedMamba)]
+* HEARTS: Benchmarking LLM Reasoning on Health Time Series [[Paper](https://arxiv.org/abs/2603.06638)][[Code](https://github.com/yang-ai-lab/HEARTS)]
 
 ### Medical Audio
 
@@ -96,6 +97,7 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 
 ## Others (Surgical AI, Genomics, Federated Learning)
 
+* ORBIT: A Prognostic World Model for Ocular Reasoning Based on Imagined Trajectories [[Paper]](https://openreview.net/forum?id=pd6GY2x8FG)
 * Mitigating Surgical Data Imbalance with Dual-Prediction Video Diffusion Model [[Paper]](https://arxiv.org/abs/2510.07345)
 * BioToken and BioFM – Biologically-Informed Tokenization Enables Accurate and Efficient Genomic Foundation Models [[Paper]](https://www.biorxiv.org/content/10.1101/2025.03.27.645711v1)[[Code]](https://github.com/m42-health/biofm-eval/)
 * Fair-FedMOE: Group-Fair One-Shot Federated Learning via Prototype-Guided Experts for Medical Imaging Analysis [[Paper](https://icml.cc/virtual/2026/poster/62867)]
