@@ -93,6 +93,7 @@ Additions or corrections are welcome in Issues! format: Title + Paper Link + Cod
 * On Revisiting Entropy for Identifying Mislabeled Medical Images [[Paper](https://arxiv.org/abs/2605.31090)][[Code](https://github.com/MedAITech/SEI)]
 * Auditing Sybil: Explaining Deep Lung Cancer Risk Prediction Through Generative Interventional Attributions [[Paper](https://arxiv.org/abs/2602.02560)]
 * Dynamic Decision Learning: Test-Time Evolution for Abnormality Grounding in Rare Diseases [[Paper](https://arxiv.org/abs/2604.24972)][[Code](https://lijunrio.github.io/DDL/)]
+* ProConMV: Provenance-Enabled Conceptual Framework for Interpretable Multi-View Diabetic Retinopathy Diagnosis
 
 
 ## Others (Surgical AI, Genomics, Federated Learning)
